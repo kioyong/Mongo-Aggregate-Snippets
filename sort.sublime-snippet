@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+{
+    \$sort:{
+        $1:${2:-1}
+    }
+}
+]]></content>
+<tabTrigger>sort</tabTrigger>
+<description>sort</description>
+<!-- <scope>source.sql</scope> -->
+</snippet>

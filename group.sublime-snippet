@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+{
+    \$group:{
+        _id:$1
+    }
+}
+]]></content>
+<tabTrigger>group</tabTrigger>
+<description>group</description>
+<scope>source</scope>
+</snippet>

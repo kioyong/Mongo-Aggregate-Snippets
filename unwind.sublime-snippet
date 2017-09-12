@@ -1,0 +1,16 @@
+<snippet>
+    <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+    <content><![CDATA[
+{
+    \$unwind:{
+        path:"\$$1"${2:,
+        preserveNullAndEmptyArrays:true}
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>unwind</tabTrigger>
+    <description>Mongo unwind</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source</scope> -->
+</snippet>

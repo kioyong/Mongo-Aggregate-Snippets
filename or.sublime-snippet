@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+\$or:[
+    {"$1":"$2"},
+    {"$3":"$4"},
+]
+]]></content>
+<tabTrigger>or</tabTrigger>
+<description>or</description>
+<scope>source</scope>
+</snippet>

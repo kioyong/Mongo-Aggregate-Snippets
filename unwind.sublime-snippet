@@ -4,9 +4,10 @@
 {
     \$unwind:{
         path:"\$$1"${2:,
+        includeArrayIndex:""}${3:,
         preserveNullAndEmptyArrays:true}
     }
-}
+},
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>unwind</tabTrigger>

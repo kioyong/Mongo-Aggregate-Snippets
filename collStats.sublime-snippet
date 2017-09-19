@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+{
+    \$collStats:
+        {
+            latencyStats: { histograms: ${1:true} },
+            storageStats: {}
+        }
+},
+]]></content>
+<tabTrigger>collStats</tabTrigger>
+<description>Mongo Project</description>
+<scope>source</scope>
+</snippet>

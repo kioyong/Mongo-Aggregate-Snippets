@@ -7,7 +7,7 @@ import re
 import sublime
 import sublime_plugin
 
-class MapFlagCommand(sublime_plugin.TextCommand):
+class HelloCommand(sublime_plugin.TextCommand):
     def run(self,edit):
         view = self.view
         region = view.find(r"db\.\w+\.aggregate\s{0, }\(\s{0, }\[",0)

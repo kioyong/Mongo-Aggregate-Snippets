@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+{
+    \$redact: {
+        \$cond: {
+            if: { ${1:\$gt}: $2 },
+            then: "${3:\$\$DESCEND}",
+            else: "${4:\$\$PRUNE}"
+        }
+    }
+}
+]]></content>
+<tabTrigger>redact</tabTrigger>
+<description>Mongo Project</description>
+<scope>source</scope>
+</snippet>

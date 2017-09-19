@@ -3,13 +3,13 @@
     <content><![CDATA[
 {
     \$match:{
-        $1: "$2"
+        $1
     }
-}
+},
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>match</tabTrigger>
-    <description>Mongo Match</description>
+    <description>Mongo Project</description>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source</scope>
 </snippet>

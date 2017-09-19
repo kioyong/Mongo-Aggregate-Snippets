@@ -8,7 +8,7 @@
         foreignField:"$3",
         as:"${4:$1}"
     }
-}
+},
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>lookup</tabTrigger>

@@ -1,12 +1,10 @@
 <snippet>
 <content><![CDATA[
 {
-    \$group:{
-        _id:$1
-    }
+    \$limit:${1:5}
 },
 ]]></content>
-<tabTrigger>group</tabTrigger>
+<tabTrigger>limit</tabTrigger>
 <description>Mongo Project</description>
 <scope>source</scope>
 </snippet>

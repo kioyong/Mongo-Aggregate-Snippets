@@ -11,4 +11,8 @@ Snippets for Aggregation Pipeline Operators
     + project
     + sort
     + unwind
-- [db.collection.aggregate map](https://docs.mongodb.com/manual/reference/operator/aggregation/) to [Jaspersoft MongoDB Query Language ](http://community.jaspersoft.com/wiki/jaspersoft-mongodb-query-language)
+    
+![image](https://github.com/kioyong/Mongo-Aggregate-Snippets/blob/master/gif/demo.gif?raw=true)
+- [db.collection.aggregate map](https://docs.mongodb.com/manual/reference/operator/aggregation/) to [Jaspersoft MongoDB Query Language ](http://community.jaspersoft.com/wiki/jaspersoft-mongodb-query-language) , default use F8  to conversion
+
+![image](https://github.com/kioyong/Mongo-Aggregate-Snippets/blob/master/gif/conversionDemo.gif?raw=true)

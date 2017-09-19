@@ -8,7 +8,7 @@
         }
 },
 ]]></content>
-<tabTrigger>collStats</tabTrigger>
+<tabTrigger>collStats    </tabTrigger>
 <description>Mongo Project</description>
 <scope>source</scope>
 </snippet>

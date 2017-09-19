@@ -8,9 +8,9 @@
             else: "${4:\$\$PRUNE}"
         }
     }
-}
+},
 ]]></content>
-<tabTrigger>redact</tabTrigger>
+<tabTrigger>redact    </tabTrigger>
 <description>Mongo Project</description>
 <scope>source</scope>
 </snippet>

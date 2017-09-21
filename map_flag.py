@@ -19,12 +19,10 @@ class MapFlagCommand(sublime_plugin.TextCommand):
             region = view.find(r"[{\w\s:]+'\w+'[,\s\w_]+:\s{0,}\[",0)
             if region:
                 str = view.substr(region)
-                print(str)
                 pattern = re.compile(r"\s{0,}{[{\w\s:]+'")
                 str = re.sub(pattern, '', str);
                 pattern = re.compile(r"'[,\s\w:]+\[")
                 str = re.sub(pattern, '', str);
-                print("str =",str)
                 view.replace(edit,region,"db."+str+".aggregate([")
                 # s = re.sub(pattern, ' ', str);
                 footer =view.find_all(r"(^\s+){0,}\][\s]{0,}}[\s]{0,}}[\s]{0,}$")

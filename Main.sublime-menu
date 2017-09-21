@@ -13,25 +13,26 @@
                 [
                     {
                         "caption": "Mongo Aggregate Snippets",
+                        "mnemonic": "m",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/Mongo-Aggregate-Snippets/README.md"},
-                                "caption": "README"
+                                "args": {"file": "${packages}/Mongo Aggregate Snippets/README.md"},
+                                "caption": "README1"
                             },
                             { "caption": "-" },
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Mongo-Aggregate-Snippets/MongoAggregateSnippets.sublime-keymap",
+                                    "file": "${packages}/Mongo Aggregate Snippets/MongoAggregateSnippets.sublime-keymap",
                                 },
                                 "caption": "Key Bindings – Default"
                             },
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Mongo-Aggregate-Snippets/User/MongoAggregateSnippets.sublime-keymap",
+                                    "file": "${packages}/Mongo Aggregate Snippets/User/MongoAggregateSnippets.sublime-keymap",
                                 },
                                 "caption": "Key Bindings – User"
                             },

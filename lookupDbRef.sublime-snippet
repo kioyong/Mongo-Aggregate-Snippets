@@ -1,0 +1,33 @@
+<snippet>
+<content><![CDATA[
+{\$addFields:{
+    "$1":{
+        \$arrayToObject:{
+            \$map:{
+                input:{\$objectToArray:"\$\$ROOT.$2"},
+                    in:{
+                        k:{\$cond:[
+                            {\$eq:[{"\$substrCP":["\$\$this.k",0,1]},{\$literal:"\$"}]},
+                            {\$substrCP:["\$\$this.k",1,{\$strLenCP:"\$\$this.k"}]},
+                            "\$\$this.k"
+                        ]},
+                        v:"\$\$this.v"
+                    }
+                }
+            }
+        }
+    }
+},
+{
+    \$lookup:{
+        from:"$3",
+        localField:"$1.id",
+        foreignField:"$4",
+        as:"$3"
+    }
+},
+]]></content>
+<tabTrigger>lookupDBRef    </tabTrigger>
+<description>Mongo Project</description>
+<scope>source</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+db.$1.updateMany(
+    {
+        "$2":"$3"
+    },
+    {
+        \$set:{
+            '$4':'$5'
+        }
+    }
+)
+]]></content>
+<tabTrigger>updateMany</tabTrigger>
+<description>Mongo Project</description>
+<scope>source</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+{
+    \$addFields:{
+        "$1":"$2"
+    }
+},
+]]></content>
+<tabTrigger>addFields</tabTrigger>
+<description>addFields</description>
+<scope>source.js, meta.function-call.method.js, meta.group.js, meta.brackets.js, meta.object-literal.js, meta.object-literal.js, meta.object-literal.js</scope>
+</snippet>

@@ -1,17 +1,14 @@
 <snippet>
 <content><![CDATA[
-db.$1.updateMany(
-    {
-        "$2":"$3"
-    },
-    {
-        \$set:{
-            '$4':'$5'
+{
+    \$elemMatch:{
+        "$1":{
+            \$eq:"$2"
         }
     }
-)
+}
 ]]></content>
-<tabTrigger>updateMany</tabTrigger>
+<tabTrigger>elemMatch</tabTrigger>
 <description>Mogo Project</description>
 <scope>source</scope>
 </snippet>

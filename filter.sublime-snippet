@@ -1,12 +1,12 @@
 <snippet>
 <content><![CDATA[
-{
-    \$addFields:{
-        "$1":"$2"
-    }
-},
+\$filter: {
+    input: "$1",
+    as: "$2",
+    cond: {$3}
+}
 ]]></content>
-<tabTrigger>addFields</tabTrigger>
+<tabTrigger>filter</tabTrigger>
 <description>Mongo Project</description>
 <scope></scope>
 </snippet>

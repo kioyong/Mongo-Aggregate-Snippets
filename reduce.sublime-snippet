@@ -1,12 +1,12 @@
 <snippet>
 <content><![CDATA[
-{
-    \$addFields:{
-        "$1":"$2"
-    }
+\$reduce:{
+    input: "\$$1",
+    initialValue:{$2},
+    in:{$3}
 },
 ]]></content>
-<tabTrigger>addFields</tabTrigger>
+<tabTrigger>reduce</tabTrigger>
 <description>Mongo Project</description>
 <scope></scope>
 </snippet>

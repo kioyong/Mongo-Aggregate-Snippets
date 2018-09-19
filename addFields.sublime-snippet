@@ -8,5 +8,5 @@
 ]]></content>
 <tabTrigger>addFields</tabTrigger>
 <description>Mongo Project</description>
-<scope></scope>
+<scope>source.js</scope>
 </snippet>

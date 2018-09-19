@@ -8,5 +8,5 @@
 ]]></content>
 <tabTrigger>sort    </tabTrigger>
 <description>Mongo Project</description>
-<!-- <scope>source.sql</scope> -->
+<scope>source.js</scope>
 </snippet>

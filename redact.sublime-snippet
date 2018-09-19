@@ -12,5 +12,5 @@
 ]]></content>
 <tabTrigger>redact    </tabTrigger>
 <description>Mongo Project</description>
-<scope>source</scope>
+<scope>source.js</scope>
 </snippet>

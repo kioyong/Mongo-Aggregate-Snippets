@@ -10,5 +10,5 @@
 ]]></content>
 <tabTrigger>elemMatch</tabTrigger>
 <description>Mogo Project</description>
-<scope>source</scope>
+<scope>source.js</scope>
 </snippet>

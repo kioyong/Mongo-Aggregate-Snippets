@@ -1,17 +1,12 @@
 <snippet>
-    <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-    <content><![CDATA[
-{
-    runCommand:{
-        aggregate:'$1',
-        pipeline:[
-            $2
-        ]
-    }
-}
+   <content><![CDATA[
+\$arrayElemAt: [
+    "$1",
+    0
+]
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>run    </tabTrigger>
+    <tabTrigger>arrayElemAt    </tabTrigger>
     <description>Mongo Project</description>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>

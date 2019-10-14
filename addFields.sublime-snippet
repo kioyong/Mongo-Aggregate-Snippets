@@ -2,7 +2,7 @@
 <content><![CDATA[
 {
     \$addFields:{
-        "$1":"$2"
+        "$1":""
     }
 },
 ]]></content>

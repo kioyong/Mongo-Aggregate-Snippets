@@ -1,11 +1,12 @@
 <snippet>
 <content><![CDATA[
-\$or:[
-    {"$1":"$2"},
-    {"$3":"$4"},
-]
+\$cond: {
+    if: { $1,
+    then: "",
+    else: ""
+}
 ]]></content>
-<tabTrigger>or    </tabTrigger>
+<tabTrigger>cond    </tabTrigger>
 <description>Mongo Project</description>
 <scope>source.js</scope>
 </snippet>

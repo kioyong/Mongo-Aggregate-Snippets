@@ -1,7 +1,6 @@
 <snippet>
    <content><![CDATA[
 db.$1.aggregate([
-    $2
 ])
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

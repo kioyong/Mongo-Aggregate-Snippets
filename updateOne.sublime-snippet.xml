@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-db.$1.updateMany(
+db.$1.updateOne(
     {
         "$2":"$3"
     },
